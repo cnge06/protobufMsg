@@ -1,0 +1,13 @@
+package protobuf;
+option java_package = "com.msg";
+option java_outer_classname = "Msg";
+message Protocol{
+	required string path=1;
+	required bytes data = 2;
+}
+message User  {
+  required int32 ID = 1;
+  required string userName = 2;
+  required string password=3;
+  optional string abc=4;
+}
