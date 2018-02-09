@@ -8,6 +8,6 @@ message Protocol{
 message User  {
   required int32 ID = 1;
   required string userName = 2;
-  required string password=3;
-  optional string abc=4;
+  required string password = 3;
+  optional string abc = 4;
 }
